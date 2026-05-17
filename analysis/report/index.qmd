@@ -33,26 +33,13 @@ background" fig-align="center"}
 *Palmer Penguins series, Part 5 (finale). Photo used
 under open licence.*
 
-::: {.callout-note appearance="simple"}
-## Palmer Penguins Data Analysis Series
-
-This is **Part 5** (finale) of a 5-part series
-exploring penguin morphometrics:
-
-1. [Part 1: EDA and Simple
-   Regression](../08-palmerpenguinspart1/
-   palmerpenguinspart1/)
-2. [Part 2: Multiple Regression and Species
-   Effects](../09-palmerpenguinspart2/
-   palmerpenguinspart2/)
-3. [Part 3: Cross-Validation and Model
-   Comparison](../10-palmerpenguinspart3/
-   palmerpenguinspart3/)
-4. [Part 4: Model Diagnostics and
-   Interpretation](../11-palmerpenguinspart4/
-   palmerpenguinspart4/)
-5. **Part 5: Random Forest versus Linear
-   Models** (this post)
+::: {.callout-note}
+**Palmer Penguins Series** -- This is part 5 of 5:
+[Part 1](/posts/08-palmerpenguinspart1/) |
+[Part 2](/posts/09-palmerpenguinspart2/) |
+[Part 3](/posts/10-palmerpenguinspart3/) |
+[Part 4](/posts/11-palmerpenguinspart4/) |
+[Part 5](/posts/12-palmerpenguinspart5/)
 :::
 
 # Introduction
