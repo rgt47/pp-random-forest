@@ -1,9 +1,6 @@
 ---
 title: "Palmer Penguins Part 5: Random Forest versus
   Linear Models"
-subtitle: >
-  Settling the interpretability-performance tradeoff
-  in ecological modelling
 author: "Ronald 'Ryy' G. Thomas"
 date: "2025-01-05"
 categories: [r, random-forest, machine-learning, model-selection]
@@ -31,7 +28,7 @@ terrain](media/images/hero.jpg){.img-fluid
 width=80%
 fig-alt="Group of penguins standing on rocky
 Antarctic terrain with the ocean and sky in the
-background"}
+background" fig-align="center"}
 
 *Palmer Penguins series, Part 5 (finale). Photo used
 under open licence.*
