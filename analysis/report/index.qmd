@@ -34,7 +34,7 @@ background" fig-align="center"}
 under open licence.*
 
 ::: {.callout-note}
-**Palmer Penguins Series** -- This is part 5 of 5:
+**Palmer Penguins Series:** This is part 5 of 5:
 [Part 1](/posts/08-palmerpenguinspart1/) |
 [Part 2](/posts/09-palmerpenguinspart2/) |
 [Part 3](/posts/10-palmerpenguinspart3/) |
@@ -163,7 +163,7 @@ bootstrap sample with a random subset of predictors.
 The resulting predictions are often more accurate,
 but there is no single equation to inspect. Feature
 importance scores indicate which variables matter
-most, but they do not tell you the direction or
+most, but they do not convey the direction or
 magnitude of each effect in the way that regression
 coefficients do.
 
@@ -669,16 +669,23 @@ the model's assumptions are satisfied; good
 predictions from a misspecified model are a
 coincidence, not a guarantee.
 
-Main takeaways:
-
-- The random forest outperformed the linear model by
-  only about two percentage points of R-squared.
-- Both models agree on the importance of flipper
-  length and species.
-- The largest gain came from biological context
-  (species), not algorithmic sophistication.
-- For ecological data of this type, the linear model
-  is the recommended default.
+In conclusion, four points merit emphasis. First,
+the random forest outperformed the linear model by
+only about two percentage points of R-squared, a
+margin that does not justify the loss of
+interpretability for most ecological research
+applications. Second, both models agree on the
+primacy of flipper length and species as predictors,
+lending biological credibility to the linear model's
+structure. Third, the largest performance gain across
+the entire series came from incorporating biological
+context (species identity in Part 2), not from
+adopting a more sophisticated algorithm. Fourth, for
+ecological data of this type, the species-aware
+linear model is the recommended default, offering
+transparent coefficients, valid confidence intervals,
+and performance that closely matches the ensemble
+alternative.
 
 # See Also
 
