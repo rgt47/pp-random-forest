@@ -21,6 +21,8 @@ format:
   html:
     code-fold: false
     code-tools: false
+cluster: penguins-arc
+cluster-order: 5
 ---
 
 ![Penguins on rocky Antarctic
@@ -753,3 +755,17 @@ Corrections, suggestions, and questions are welcome.
 Please open an issue or pull request on the
 [GitHub repository](https://github.com/mygit)
 or send an email to user@example.com.
+
+## Related posts in this cluster
+
+This post is part of the *Palmer Penguins Analysis Arc* series.
+Recommended reading order:
+
+1. Post 50: [Palmer Penguins Part 1: Exploratory Data Analysis](../50-pp-eda/)
+2. Post 51: [Palmer Penguins Part 2: Multiple Regression](../51-pp-multiple-regression/)
+3. Post 52: [Palmer Penguins Part 3: Cross-Validation](../52-pp-cross-validation/)
+4. Post 53: [Palmer Penguins Part 4: Model Diagnostics](../53-pp-diagnostics/)
+5. **Post 54: Palmer Penguins Part 5: Random Forest versus Linear** (this post)
+6. Post 55: [Predictive Modeling of Penguin Body Mass](../55-pp-body-mass-prediction/)
+7. Post 56: [Functional Plot Generation with purrr](../56-pp-grouped-plots-with-purrr/)
+
