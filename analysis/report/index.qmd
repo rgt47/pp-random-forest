@@ -9,7 +9,7 @@ description: >
   forest outperforms the linear model by only two
   percentage points, prompting reflection on the
   interpretability-performance tradeoff.
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 document-type: "blog"
 draft: false
 execute:
@@ -26,7 +26,7 @@ cluster-order: 5
 ---
 
 ![Penguins on rocky Antarctic
-terrain](media/images/hero.jpg){.img-fluid
+terrain](media/images/hero.png){.img-fluid
 width=80%
 fig-alt="Group of penguins standing on rocky
 Antarctic terrain with the ocean and sky in the
