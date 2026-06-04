@@ -11,7 +11,7 @@ description: >
   interpretability-performance tradeoff.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   eval: false
@@ -235,7 +235,7 @@ which we examine in the feature importance section
 below.
 
 ![Penguins gathered near the
-shore](media/images/ambiance2.jpg){.img-fluid
+shore](media/images/ambiance2.png){.img-fluid
 fig-alt="Group of penguins near the Antarctic
 shoreline with water and rocks in the background"}
 
@@ -534,7 +534,7 @@ yielded only marginal improvements.
    choosing the model.
 
 ![Antarctic landscape with penguins in the
-distance](media/images/ambiance3.jpg){.img-fluid
+distance](media/images/ambiance3.png){.img-fluid
 fig-alt="Wide Antarctic panorama with penguins
 visible in the foreground and mountains behind"}
 
