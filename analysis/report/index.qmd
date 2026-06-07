@@ -11,7 +11,7 @@ description: >
   interpretability-performance tradeoff.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   eval: false
