@@ -1,7 +1,7 @@
 ---
 title: "Palmer Penguins Part 5: Random Forest versus
   Linear Models"
-author: "Ronald 'Ryy' G. Thomas"
+author: "Ronald G. Thomas"
 date: "2025-01-05"
 categories: [r, random-forest, machine-learning, model-selection]
 description: >
