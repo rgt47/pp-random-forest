@@ -17,10 +17,6 @@ execute:
   eval: false
   warning: false
   message: false
-format:
-  html:
-    code-fold: false
-    code-tools: false
 cluster: penguins-arc
 cluster-order: 5
 ---
