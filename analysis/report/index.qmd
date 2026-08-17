@@ -1,14 +1,9 @@
 ---
-title: "Palmer Penguins Part 5: Random Forest versus
-  Linear Models"
+title: "Palmer Penguins Part 5: Random Forest versus Linear Models"
 author: "Ronald G. Thomas"
 date: "2025-01-05"
 categories: [r, random-forest, machine-learning, model-selection]
-description: >
-  A head-to-head comparison reveals that a random
-  forest outperforms the linear model by only two
-  percentage points, prompting reflection on the
-  interpretability-performance tradeoff.
+description: "A head-to-head comparison reveals that a random forest outperforms the linear model by only two percentage points, prompting reflection on the interpretability-performance tradeoff."
 image: "media/images/hero.png"
 document-type: "blog"
 draft: true
