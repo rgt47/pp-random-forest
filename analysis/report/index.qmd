@@ -24,7 +24,7 @@ Antarctic terrain with the ocean and sky in the
 background" fig-align="center"}
 
 *Palmer Penguins series, Part 5 (finale). Photo used
-under open licence.*
+under open license.*
 
 ::: {.callout-note}
 **Palmer Penguins Series:** This is part 5 of 5:
@@ -69,7 +69,7 @@ ecological research.
   this ecological dataset.
 - To establish a principled framework for evaluating
   the interpretability-performance tradeoff, not just
-  an intuitive judgement.
+  an intuitive judgment.
 - To determine whether the random forest identifies
   the same important predictors as the linear model or
   reveals hidden structure.
@@ -77,7 +77,7 @@ ecological research.
   simpler model is the better choice, as a
   counterpoint to the assumption that more complex
   methods are always superior.
-- To summarise the entire five-part journey into a set
+- To summarize the entire five-part journey into a set
   of practical recommendations.
 - To produce a reusable template for model comparison
   applicable to future datasets.
@@ -94,7 +94,7 @@ ecological research.
 3. Develop a decision framework that maps project
    requirements (interpretability, sample size,
    regulatory context) to an appropriate model class.
-4. Summarise the key findings and methodological
+4. Summarize the key findings and methodological
    lessons from all five parts of the series.
 
 Errors and better approaches are welcome; see the
@@ -140,7 +140,7 @@ are directly comparable.
 # What is the Interpretability-Performance Tradeoff?
 
 The interpretability-performance tradeoff is the
-observation that, in statistical modelling, gains in
+observation that, in statistical modeling, gains in
 predictive accuracy often come at the expense of the
 analyst's ability to explain how the model arrives at
 its predictions. A linear regression produces a
@@ -353,7 +353,7 @@ kable(
 Both models agree that flipper length and species
 are the most important determinants of body mass.
 The linear model additionally provides the direction
-and magnitude of each effect (e.g., each millimetre
+and magnitude of each effect (e.g., each millimeter
 of flipper length adds approximately 15-20 grams),
 which the random forest importance scores alone
 cannot convey.
@@ -453,7 +453,7 @@ uncertainty for field-weighed penguins.
 
 # Series Summary
 
-This five-part series traced the full modelling
+This five-part series traced the full modeling
 workflow from exploratory data analysis to model
 selection.
 
@@ -531,7 +531,7 @@ visible in the foreground and mountains behind"}
 
 *Closing visual before the summary sections.*
 
-## Lessons Learnt
+## Lessons Learned
 
 ### Conceptual Understanding
 
@@ -595,7 +595,7 @@ visible in the foreground and mountains behind"}
   generous to the ensemble method.
 - The dataset contains only 333 complete observations
   from a single geographic location; results may not
-  generalise to larger or more diverse penguin
+  generalize to larger or more diverse penguin
   populations.
 - The temporal window (2007-2009) is narrow; both
   models assume stationary relationships that may
@@ -620,7 +620,7 @@ visible in the foreground and mountains behind"}
 3. Add gradient-boosted trees (e.g., `xgboost`) as
    a third competitor to broaden the comparison.
 4. Generate partial dependence plots for the random
-   forest to visualise the shape of each variable's
+   forest to visualize the shape of each variable's
    marginal effect.
 5. Fit a mixed-effects model with species as a random
    effect to account for population-level variation
@@ -653,11 +653,11 @@ coefficient interpretations will almost always be
 preferred over an opaque ensemble that offers
 marginal predictive gains.
 
-For anyone beginning a modelling journey, three
+For anyone beginning a modeling journey, three
 pieces of advice are offered. First, start simple and
 add complexity only when the data demand it. Second,
 always cross-validate before claiming that a model
-generalises. Third, run diagnostics to confirm that
+generalizes. Third, run diagnostics to confirm that
 the model's assumptions are satisfied; good
 predictions from a misspecified model are a
 coincidence, not a guarantee.
