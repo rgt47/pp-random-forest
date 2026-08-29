@@ -6,7 +6,7 @@ categories: [r, random-forest, machine-learning, model-selection]
 description: "A head-to-head comparison reveals that a random forest outperforms the linear model by only two percentage points, prompting reflection on the interpretability-performance tradeoff."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   eval: false
